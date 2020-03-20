@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es2017",
+        "jsx": "react",
+        // make sure this is false, comments are needed for webpacks magic-comments.
+        // they can be removed later in the build chain.
+        "removeComments": false,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "scripthost",
+            "webworker",
+            "es5",
+            "es2015",
+            "es2015.collection",
+            "es2015.iterable",
+            "es2015.generator",
+            "es2015.core",
+            "es2015.symbol",
+            "es2015.proxy",
+            "es2015.promise",
+            "es2016.array.include"
+        ],
+        "experimentalDecorators": true,
+        "noUnusedLocals": false,
+        "strictNullChecks": false,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": false,
+        "allowJs": false,
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"]
+        }
+    },
+    "include": [
+        "./src"
+    ]
+}
