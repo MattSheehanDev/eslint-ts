@@ -1,4 +1,4 @@
 # eslint-ts
 
-ESLint config for a typescript project
+ESLint config template for a Typescript and React project.
 
